@@ -15,21 +15,24 @@ fbID = data.get('fbID')
 token = data.get('fbToken')
 telegramToken = data.get('telegramToken')
 
+print 'Project Tinder started!'
 telegramMessaging.sendMessage('Project Tinder started!')
 
 while True:
-
     session = pynder.Session(facebook_id=fbID, facebook_token=token)
 
     # auto like
-    if session.likes_remaining > 0:
-        telegramMessaging.sendMessage('started autolike:')
-        autoLiker.doAutoLike(fbID, token)
-
+    try:
+        if session.likes_remaining > 0:
+            autoLiker.doAutoLike(fbID, token)
+    except:
+        print 'error in autolike'
     # check the state of the matches and ask questions
-    matches = [m for m in session.matches()]
-    for y in range(0, len(matches)):
-        state = quiz.checkState(matches[y])
-        quiz.checkAnswers(state, matches[y])
-
+    try:
+        matches = [m for m in session.matches()]
+        for y in range(0, len(matches)):
+            state = quiz.checkState(matches[y])
+            quiz.checkAnswers(state, matches[y])
+    except:
+        print 'ERROR in quiz'
     time.sleep(3)
