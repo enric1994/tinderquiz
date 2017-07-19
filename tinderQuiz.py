@@ -7,7 +7,6 @@ import pynder
 import quiz
 import autoLiker
 
-# commit lol 2 new branch
 fbUsername = data.get('fbUser')
 fbPass = data.get('fbPass')
 
