@@ -22,7 +22,7 @@ while True:
 
     # auto like
     try:
-        if session.likes_remaining > 0:
+        if session.likes_remaining == 0:
             autoLiker.doAutoLike(fbID, token)
     except:
         print 'error in autolike'

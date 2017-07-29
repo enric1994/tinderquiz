@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import pynder
 import telegramMessaging
-
+import updateToken
 
 def doAutoLike(fbID, token):
     session = pynder.Session(facebook_id=fbID, facebook_token=token)
@@ -10,5 +10,6 @@ def doAutoLike(fbID, token):
     for i in near:
         if session.likes_remaining == 0:
             telegramMessaging.sendMessage('Likes exhausted')
+            updateToken.update()
             break
         i.like()
