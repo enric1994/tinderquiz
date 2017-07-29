@@ -6,8 +6,10 @@ import telegramMessaging
 import pynder
 import quiz
 import autoLiker
+import updateToken
 
-# commit lol 2 new branch
+updateToken.update()
+
 fbUsername = data.get('fbUser')
 fbPass = data.get('fbPass')
 
@@ -19,6 +21,7 @@ print 'Project Tinder started!'
 telegramMessaging.sendMessage('Project Tinder started!')
 
 while True:
+    token = data.get('fbToken')
     session = pynder.Session(facebook_id=fbID, facebook_token=token)
 
     # auto like

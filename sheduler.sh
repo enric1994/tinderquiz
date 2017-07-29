@@ -1,8 +1,5 @@
 #!/bin/bash
-while :
-do
-echo 'project tinder started'
-python /home/tinderquiz/tinderQuiz.py
-sleep 8000
-pkill python
+until tinderQuiz.py; do
+    echo "'tinderQuiz' crashed with exit code $?. Restarting..." >&2
+    sleep 1
 done
