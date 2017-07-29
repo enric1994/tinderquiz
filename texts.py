@@ -5,9 +5,8 @@ nextLine='\n'
 q1="INCREIBLE! Hem fet match!!"+ nextLine
 q1+="Suposo que et pica una mica la curiositat i t'has decidit a intentar-ho. Ara deus estar pensant: PERÒ QUIN TIU MÉS PENJAT! OMG!!"+nextLine
 q1+="No ho nego, però tu tranqui."+nextLine
-
 q1+="Has de saber que jo encara no sé res de tu, fins que no superis les 9 preguntes jo seguiré fent el meu dia a dia sense saber la que estic liant a Tinder :D"+nextLine
-q1+="Primera pregunta!!!"+nextLine+nextLine
+q1+="Primera pregunta!!! (Quan la contestis bé saltará la següent)"+nextLine+nextLine
 q1+="Quina és la capital de Suecia?"
 
 q2="Molt bé!! Sabia que ho aconseguiries."+nextLine
@@ -30,12 +29,12 @@ q5="Brutal! No m’esperava que arribessis fins aquí."+nextLine
 q5+="He triat aquesta pregunta perquè Oasis és un grup que m’encanta i toco moltes de les seves cançons amb la guitarra. Si si, ho has llegit bé, toco la guitarra i també canto! Però només desde fa un parell d’anys, tampoc t’esperis un Kurt Cobain haha" +nextLine
 q5+="M’agrada molt Black Keys, Red Hot Chili Peppers, Dire Straits i Smash Mouth. Espero que a tu també, perquè em passo el dia cantant :D"+nextLine
 q5+="Be, prou de perdre el temps, següent pregunta!!"+nextLine+nextLine
-q5+="Quina es la primera frase del Quijote? (Fins al primer punt i sense faltes ;)"
+q5+="Com comença el Quijote?"
 
 q6="hahahahaha no m’ho puc creure, tantes ganes tens de coneixe'm? ;)"+nextLine
 q6+="No et desanimis, que ja queda poc!!"+nextLine
 q6+="Pregunta:"+nextLine+nextLine
-q6+="Paraula que comença amb la “M”: Persona que posa per a que la copii un pintor o un escultor"
+q6+="Paraula que comença amb la “M” i de 5 lletres: Persona que posa per a que la copii un pintor o un escultor"
 
 q7="Model!!"+nextLine
 q7+="Es podria dir que sóc model perquè he fet alguns anuncis (bastant ridículs). Si encertes la següent pregunta, et passaré un i aviam si em reconeixes :)"+nextLine
@@ -45,11 +44,11 @@ q7+="Quin videojoc consisteix en ordenar blocs de colors amb diferents formes?"
 q8="Molt bé! Segur que ets una super gamer!. Els videojocs són un dels meus hobbies principals i passo bastant temps ‘matant marcianets’ jaja"+nextLine
 q8+="I… com t’havia promès aquí tens el vídeo d’ anunci meu: https://www.youtube.com/watch?v=fSCaGK91EOs"+nextLine
 q8+="Seguim!!!"+nextLine+nextLine
-q8+="Quina és la xifra número 14 del nombre PI (Per si no ho he comentat, sóc un friki)"+nextLine
+q8+="Com comença el nombre PI?"+nextLine
 
 q9="No m’ho puc creure! Com sabies que PI és: 3.1415926535897?"+nextLine
 q9+="Estàs molt a prop del final! Et queda una pregunta i tindràs l’inigualable honor de coneixe'm:"+nextLine+nextLine
 q9+="Qui va ser el primer ésser humà en trepitjar la lluna?"
 
 q10="No tinc paraules… Has demostrat que tens una ment matemàtica i un cultura general excel·lents (i un domini de la wikipedia excepcional)"+nextLine
-q10+="Quan vulguis et pots posar en contacte amb el genial creador de tota aquesta trama: 669214506 :D"+nextLine
+q10+="I... si no et fa por fer un cafè amb un penjat que ha fet un robot que lliga per ell, et pots posar en contacte amb el genial creador de tota aquesta trama: 669214506 :D"+nextLine

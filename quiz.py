@@ -38,7 +38,7 @@ def checkAnswers(state, match):
         notify.matchInfo(match, 0)
     if state == 1:
         for x in range(0, len(match.messages)):
-            if 'estocolm' in str(match.messages[x]).lower() or 'estocolmo' in str(match.messages[x]).lower():
+            if 'estocolm' in str(match.messages[x]).lower():
                 match.message(texts.q2)
     if state == 2:
         for x in range(0, len(match.messages)):
@@ -54,7 +54,7 @@ def checkAnswers(state, match):
                 match.message(texts.q5)
     if state == 5:
         for x in range(0, len(match.messages)):
-            if 'galgo corredor' in str(match.messages[x]).lower():
+            if 'cuyo nombre' in str(match.messages[x]).lower():
                 match.message(texts.q6)
     if state == 6:
         for x in range(0, len(match.messages)):
@@ -66,7 +66,7 @@ def checkAnswers(state, match):
                 match.message(texts.q8)
     if state == 8:
         for x in range(0, len(match.messages)):
-            if '7' in str(match.messages[x]):
+            if '1415' in str(match.messages[x]):
                 match.message(texts.q9)
     if state == 9:
         for x in range(0, len(match.messages)):
