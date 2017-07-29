@@ -4,7 +4,10 @@ lines = myFile.readlines()
 
 def get(operation):
     if operation == 'fbToken':
-        return lines[0][:-1]
+        myTokenFile = open('token.txt', 'r')
+        token = myTokenFile.readlines()
+        myTokenFile.close()
+        return token[0]
     elif operation == 'fbUser':
         return lines[1][:-1]
     elif operation == 'fbPass':
@@ -17,4 +20,4 @@ def get(operation):
         return lines[5][:-1]
     else:
         return -1
-    file.close()
+    myFile.close()
