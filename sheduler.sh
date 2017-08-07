@@ -1,5 +1,5 @@
 #!/bin/bash
-until tinderQuiz.py; do
+until python tinderQuiz.py; do
     echo "'tinderQuiz' crashed with exit code $?. Restarting..." >&2
-    sleep 1
+    sleep 10
 done
