@@ -8,17 +8,15 @@ import quiz
 import autoLiker
 import updateToken
 
-updateToken.update()
-
 fbUsername = data.get('fbUser')
 fbPass = data.get('fbPass')
 
 fbID = data.get('fbID')
 token = data.get('fbToken')
-telegramToken = data.get('telegramToken')
 
 print 'Project Tinder started!'
-telegramMessaging.sendMessage('Project Tinder started!')
+telegramMessaging.sendMessage('Project Tinder started! updating token...')
+updateToken.update()
 
 while True:
     token = data.get('fbToken')

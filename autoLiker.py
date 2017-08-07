@@ -10,6 +10,5 @@ def doAutoLike(fbID, token):
     for i in near:
         if session.likes_remaining == 0:
             telegramMessaging.sendMessage('Likes exhausted')
-            updateToken.update()
             break
         i.like()
