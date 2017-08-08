@@ -16,10 +16,9 @@ token = data.get('fbToken')
 
 print 'Project Tinder started!'
 telegramMessaging.sendMessage('Project Tinder started! updating token...')
-updateToken.update()
+#updateToken.update()
 
 while True:
-    token = data.get('fbToken')
     session = pynder.Session(facebook_id=fbID, facebook_token=token)
 
     # auto like
