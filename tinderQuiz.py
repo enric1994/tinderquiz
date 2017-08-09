@@ -6,7 +6,7 @@ import telegramMessaging
 import pynder
 import quiz
 import autoLiker
-import updateToken
+import random
 
 fbUsername = data.get('fbUser')
 fbPass = data.get('fbPass')
@@ -16,7 +16,6 @@ token = data.get('fbToken')
 
 print 'Project Tinder started!'
 telegramMessaging.sendMessage('Project Tinder started! updating token...')
-#updateToken.update()
 
 while True:
     session = pynder.Session(facebook_id=fbID, facebook_token=token)
@@ -35,4 +34,4 @@ while True:
             quiz.checkAnswers(state, matches[y])
     except:
         print 'ERROR in quiz'
-    time.sleep(3)
+    time.sleep(3+random.randint(0,10))

