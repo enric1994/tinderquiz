@@ -34,4 +34,4 @@ while True:
             quiz.checkAnswers(state, matches[y])
     except:
         print 'ERROR in quiz'
-    time.sleep(3+random.randint(0,2))
+    time.sleep(3)
