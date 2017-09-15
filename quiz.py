@@ -66,10 +66,10 @@ def checkAnswers(state, match):
                 match.message(texts.q8)
     if state == 8:
         for x in range(0, len(match.messages)):
-            if '1415' in str(match.messages[x]):
+            if '141' in str(match.messages[x]):
                 match.message(texts.q9)
     if state == 9:
         for x in range(0, len(match.messages)):
-            if 'armstrong' in str(match.messages[x]).lower():
+            if 'strong' in str(match.messages[x]).lower():
                 match.message(texts.q10)
                 notify.matchInfo(match,1)
