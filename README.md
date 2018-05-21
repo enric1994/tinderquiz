@@ -7,7 +7,7 @@ Basically, the bot is a **gamechat** where the girls have to answer 9 questions 
 
 My system perform two operations:
 * Hit random likes (200 per day)
-* Answer questions to my matchs
+* Answer questions to my matches
 
 
 ## Example
@@ -61,7 +61,7 @@ I used Telegram bot that inform me of the new girls that complete the quiz:
 </p>
 
 ### Infrastructure
-* In order to comunicate with the Tinder API I used [this](https://github.com/charliewolf/pynder) Python wrapper.
+* In order to communicate with the Tinder API I used [this](https://github.com/charliewolf/pynder) Python wrapper.
 * The full system was deployed at AWS (Amazon Web Services) under a free tier machine.
 
 
