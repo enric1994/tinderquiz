@@ -39,10 +39,12 @@ And so on...
   <div>
      <img src="https://github.com/enric1994/tinderquiz/blob/master/images/Screenshot_20170710-141144.png" width="300">
      <img src="https://github.com/enric1994/tinderquiz/blob/master/images/Screenshot_20170710-141148.png" width="300">
+  </div>
+   <div>
      <img src="https://github.com/enric1994/tinderquiz/blob/master/images/Screenshot_20170710-141159.png" width="300">
+     <img src="https://github.com/enric1994/tinderquiz/blob/master/images/Screenshot_20170710-141204.png" width="300">
   </div>
   <div>
-     <img src="https://github.com/enric1994/tinderquiz/blob/master/images/Screenshot_20170710-141204.png" width="300">
      <img src="https://github.com/enric1994/tinderquiz/blob/master/images/Screenshot_20170710-141210.png" width="300">
      <img src="https://github.com/enric1994/tinderquiz/blob/master/images/Screenshot_20170710-141216.png" width="300">
   </div> 
