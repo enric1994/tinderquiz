@@ -22,7 +22,7 @@ Basically, I present myself and explain the challenge.
 
 Then, when the bot match with a girl, it send the first answer: **Wich is the capital of Sweden?**
 
-And when the bot detects the correct answer it sends the next answer:
+And when the bot detects the correct answer (Estocolm in Catalan) it sends the next question:
 
   <div align="center">
    <img src="https://github.com/enric1994/tinderquiz/blob/master/images/Screenshot_20170710-141129.png" width="350">
