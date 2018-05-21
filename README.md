@@ -2,11 +2,13 @@
 ## My Tinder bot 🔥
 
 During 2 months I used this Tinder bot that provided me **63 Whatsapp contacts** of random girls. 
+
 Basically, the bot is a **gamechat** where the girls have to answer 9 questions correctly in order to get my phone number 😎
 
 My system perform two operations:
 * Hit random likes (200 per day)
 * Answer questions to my matchs
+
 
 ## Example
 
@@ -46,7 +48,9 @@ And so on...
   </div> 
 </div>
 
-Wow! Finally the target complete all the questions! Now he is awarded wit my phone number 😆
+Wow! Finally the target complete all the questions! Now he is awarded wit my phone number, I hope that he chat me on Whatsapp... 😆
+
+___
 
 ### Integration with Telegram
 
