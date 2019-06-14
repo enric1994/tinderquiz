@@ -1,5 +1,4 @@
-# How to use code to meet girls:
-## My Tinder bot 🔥
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fenric1994%2Ftinderquiz)
 
 During 2 months I used this Tinder bot that provided me **63 Whatsapp contacts** of random girls. 
 
