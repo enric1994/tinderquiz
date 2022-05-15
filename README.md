@@ -1,8 +1,5 @@
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fenric1994%2Ftinderquiz)
 
-During 2 months I used this Tinder bot that provided me **63 Whatsapp contacts** of random girls. 
-
-Basically, the bot is a **gamechat** where the girls have to answer 9 questions correctly in order to get my phone number 😎
+This Tinder bot is a **gamechat** where girls are challenged to answer 9 questions correctly
 
 My system perform two operations:
 * Hit random likes (200 per day)
@@ -19,7 +16,7 @@ Here's my profile photo (I focused on catalan girls, so all the texts are in Cat
 
 Basically, I present myself and explain the challenge.
 
-Then, when the bot match with a girl, it send the first answer: **Wich is the capital of Sweden?**
+Then, when the bot match with a girl, it sends the first question: **Wich is the capital of Sweden?**
 
 And when the bot detects the correct answer (Estocolm in Catalan) it sends the next question:
 
@@ -49,7 +46,6 @@ And so on...
   </div> 
 </div>
 
-Wow! Finally the target complete all the questions! Now he is awarded wit my phone number, I hope that he chat me on Whatsapp... 😆
 
 ___
 
